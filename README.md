@@ -1,4 +1,4 @@
-![image](https://github.com/andrasdaradici/ezrp/assets/90605554/674240c2-45fe-4a7a-91e8-ea955beca0c4)# EZRP - A Simple Discord RichPresence integration for Unity.
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/64eab35f-d5ee-4dd0-902a-cef27f99e78b)# EZRP - A Simple Discord RichPresence integration for Unity.
 
 # Features
 **Available**
@@ -86,15 +86,70 @@ From the two options that appeared, tick the checkbox next to "Static RichPresen
 
 ![image](https://github.com/andrasdaradici/ezrp/assets/90605554/9828a8ce-c02d-4fa1-8b32-4663a4baef29)
 
-6B - Input the details that you want displayed. 
+5B - Scene-Based RichPresence.
+
+Now this is where things get funky. In the script, click the empty tick the check box next to "Scene Based RichPresence". After ticking it you should see this.
+
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/8bf686d7-2049-4eca-9be4-6b2a61997563)
+
+Create a folder, wherever you want to, preferably in the "Assets" folder so you can find it with ease and name it "Rich Presence Items"
+
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/02ec7f11-545f-4e6b-99f0-be7b5190b7ed)
+
+Go inside this folder, right-click, and in the "Create" context menu there should be "Discord Rich Presence" at the top.
+
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/418e6f32-3365-4b51-b32e-ddb77486c354)
+
+Hover over it and then click "Rich Presence Item".
+
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/870c736f-0bc3-4a92-ae48-31acaf135678)
+
+This will create a scriptable object, name it whatever you want it to.
+
+When you select the object you just created you should see this in the "Inspector" tab.
+
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/2667490d-d79d-472a-92ac-09fc6561913c)
+
+Here, you will input the details, state, etc of the RichPresence.
+
+In the example case, I made one for the "Main Menu" and one for "Level 1" and they look like this.
+
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/8ece477a-41a3-4ebc-8467-70744c1242b7)
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/dfcf82af-fc60-472f-baa4-55e642c17859)
+
+Back in the scene hierarchy, select your RichPresence and attach the RichPresence Items you just created to the script.
+
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/cf263f42-d680-488d-9a9d-6c6d2eca4b2a)
+
+How does this work?
+
+You see, the lists have an index number in front of every single object.
+
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/62f8db34-b312-48ee-97de-79be1c16f97e)
+
+And when you add the scenes of your game into the build settings, they have an index too.
+
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/c4c0be7c-801b-47fe-afbb-516c8a2496aa)
+
+Thus an object with the index 0 in the list will display on the scene with the index 0 in the build settings.
+
+So in my case, when I'm in the main menu it will display the data from the main menu file, and when I'm in level 1 it will display the data from the level 1 file.
+
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/3ca256a6-51fc-4247-a700-9e64f9c4c29a)
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/ae742744-f504-4931-8270-af58d3eece72)
+
+
+6A - Input the details that you want displayed. 
 
 Example:
+
 ![image](https://github.com/andrasdaradici/ezrp/assets/90605554/f08df04a-8a95-403b-9ed4-f6ec68152547)
 
 When you enter play mode, it should change from "Not connected" to "Connected" and it should look like this in Discord. If there are any errors they will appear.
+
 ![image](https://github.com/andrasdaradici/ezrp/assets/90605554/a01e6f7b-a07c-4a4e-b2a7-b3b1dcc4faa5)
 
-7B - Adding images.
+7A - Adding images.
 
 Back to the Discord Developer Portal webpage. Here, on the left sidebar, you will have to click "Rich Presence".
 
