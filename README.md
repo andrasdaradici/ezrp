@@ -7,6 +7,7 @@
 - Update notice, it connects to a webserver to check if the version number there matches the current version you have installed, and if they don't, you get a notice inside the editor in the script itself.
 ### Planned 
 - Party invites (See image below)
+
 ![image](https://github.com/andrasdaradici/ezrp/assets/90605554/8b7ba6d8-63f6-497f-9c28-ba65d8c27046)
 - A nicer, simpler interface
 
