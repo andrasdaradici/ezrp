@@ -22,6 +22,9 @@ Q: Will there be updates to this?
 
 A: Yes, there will be updates to make the code look nicer and to have more functions. (See planned features section.)
 
+# Support development
+If you like this asset and want to help me out consider donating on [Ko-Fi](https://ko-fi.com/andrasdaradics)
+
 # Getting started
 ## Step 1 - Creating an application on the Discord Developer Website.
 1 - Search for the [Discord Developer Portal](https://discord.com/developers/applications)
