@@ -1,4 +1,4 @@
-![image](https://github.com/andrasdaradici/ezrp/assets/90605554/64eab35f-d5ee-4dd0-902a-cef27f99e78b)# EZRP - A Simple Discord RichPresence integration for Unity.
+# EZRP - A Simple Discord RichPresence integration for Unity.
 
 # Features
 **Available**
