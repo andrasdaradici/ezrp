@@ -181,4 +181,6 @@ There's also this this toggle at the bottom of the script, you can enable it to 
 ![image](https://github.com/andrasdaradici/ezrp/assets/90605554/c786c643-0c07-4b7b-b1c1-cd0d773c1c17)
 ![image](https://github.com/andrasdaradici/ezrp/assets/90605554/2d9bd09e-1393-4ece-a760-1f28613e02de)
 
+## Further help
+
 For further help check out the documentation (COMING SOON).
