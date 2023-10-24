@@ -15,9 +15,11 @@
 
 # Faq
 Q: Does this collect my data?
+
 A: No, it does not collect your data. You can check the code itself, it is attached above. Most of the code in this project either way is from the custom-editor script that I have created and from the [Discord Game SDK](https://discord.com/developers/docs/game-sdk/sdk-starter-guide)
 
 Q: Will there be updates to this?
+
 A: Yes, there will be updates to make the code look nicer and to have more functions. (See planned features section.)
 
 # Getting started
