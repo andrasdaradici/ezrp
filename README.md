@@ -66,6 +66,7 @@ A: Yes, there will be updates to make the code look nicer and to have more funct
 3 - Hover your mouse over it and click "Add RichPresence" and a game object with the RichPresence tag and script attached to it should appear.
 
 ![image](https://github.com/andrasdaradici/ezrp/assets/90605554/77805da6-4381-4039-97b6-76d8da30cae3)
+
 ![image](https://github.com/andrasdaradici/ezrp/assets/90605554/d4d6230e-b2b8-4cd2-b5fc-23c651524120)
 
 4 - Enter the Application ID. 
@@ -181,6 +182,7 @@ So in my case, when I'm in the main menu it will display the data from the main 
 9 - Other functions.
 There's also this this toggle at the bottom of the script, you can enable it to show how much time a player spent in the game since they opened it.
 ![image](https://github.com/andrasdaradici/ezrp/assets/90605554/1644d28c-399a-4571-8fcf-c1482a0c9ff0)
+
 ![image](https://github.com/andrasdaradici/ezrp/assets/90605554/ee646ec1-c1f1-463c-8f29-c6f1f5b5e0f9)
 
 ## Further help
