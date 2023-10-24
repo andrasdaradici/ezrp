@@ -22,4 +22,26 @@ A: Yes, there will be updates to make the code look nicer and to have more funct
 # Getting started
 ## Step 1 - Creating an application on the Discord Developer Website.
 1 - Search for the [Discord Developer Portal](https://discord.com/developers/applications)
+
 ![image](https://github.com/andrasdaradici/ezrp/assets/90605554/cd5e92f6-d518-4cf1-82ef-0741e9b5b455)
+
+2 - Log in to your Discord account.
+
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/32e40252-17ee-477b-b327-e60a345d7c19)
+
+3 - Create an application
+
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/a3b7a687-1c93-4a94-a4dd-1e2a8bca4fa2)
+
+## Step 2 - Import the asset
+
+**Method A:**
+
+1 - Go to the releases tab of the GitHub repository
+
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/3dbe964f-e00d-44e8-8edb-5f07f8cfdd0c)
+
+2 - Select the version that you'd like (The newest version is always recommended) and download the `.unitypackage` file.
+
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/02cfdbc2-323b-4043-b4f7-638a1696b463)
+
