@@ -27,7 +27,7 @@ A: Yes, there will be updates to make the code look nicer and to have more funct
 
 2 - Log in to your Discord account.
 
-![image](https://github.com/andrasdaradici/ezrp/assets/90605554/32e40252-17ee-477b-b327-e60a345d7c19)
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/80158021-8e64-40eb-8d23-db951bdbf47b)
 
 3 - Create an application
 
