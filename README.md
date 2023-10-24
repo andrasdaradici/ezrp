@@ -20,4 +20,6 @@ Q: Will there be updates to this?
 A: Yes, there will be updates to make the code look nicer and to have more functions. (See planned features section.)
 
 # Getting started
-
+## Step 1 - Creating an application on the Discord Developer Website.
+1 - Search for the [Discord Developer Portal](https://discord.com/developers/applications)
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/cd5e92f6-d518-4cf1-82ef-0741e9b5b455)
