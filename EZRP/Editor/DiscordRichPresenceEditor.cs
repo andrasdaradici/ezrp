@@ -147,7 +147,7 @@ public class DiscordRichPresenceEditor : Editor
             buttonStyle.hover.textColor = HexToColor("#551A8B");
             if (GUILayout.Button(new GUIContent("Documentation", "Stuck? Need in help? \nClick to view the Documentation."), buttonStyle))
             {
-                Application.OpenURL("https://github.com/andrasdaradici/ezrp/blob/main/README.md#further-help");
+                Application.OpenURL("https://github.com/andrasdaradici/ezrp#further-help");
             }
         }   
     }
