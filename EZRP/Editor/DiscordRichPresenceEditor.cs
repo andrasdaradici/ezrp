@@ -118,13 +118,13 @@ public class DiscordRichPresenceEditor : Editor
                 Separator();
                 EditorGUILayout.Space();
                 EditorGUILayout.LabelField("Details and State of RichPresence", EditorStyles.boldLabel);
-                richPresence.Details = EditorGUILayout.TextField(new GUIContent("Details", "Details of the game, f.e. \n• \"In the menu\" \n• \"Connecting to server\" \n• \"Slaying monsters\" "), richPresence.Details);
-                richPresence.State = EditorGUILayout.TextField(new GUIContent("State", "State of the game, f.e. \n• \"Starting match\" \n• \"Displaying scores\" \n• \"Playing solo (1 out of 5)\" "), richPresence.State);
+                richPresence.Details = EditorGUILayout.TextField(new GUIContent("Details", "Details of the game, f.e. \nâ€¢ \"In the menu\" \nâ€¢ \"Connecting to server\" \nâ€¢ \"Slaying monsters\" "), richPresence.Details);
+                richPresence.State = EditorGUILayout.TextField(new GUIContent("State", "State of the game, f.e. \nâ€¢ \"Starting match\" \nâ€¢ \"Displaying scores\" \nâ€¢ \"Playing solo (1 out of 5)\" "), richPresence.State);
                 EditorGUILayout.Space();
                 EditorGUILayout.LabelField("Image assets of the RichPresence (Leave empty for no images)", EditorStyles.boldLabel);
-                richPresence.LargeImageKey = EditorGUILayout.TextField(new GUIContent("Large Image Key", "Usually a \n• Game Logo \n• Player class icon \n• Map preview"), richPresence.LargeImageKey);
+                richPresence.LargeImageKey = EditorGUILayout.TextField(new GUIContent("Large Image Key", "Usually a \nâ€¢ Game Logo \nâ€¢ Player class icon \nâ€¢ Map preview"), richPresence.LargeImageKey);
                 richPresence.LargeImageText = EditorGUILayout.TextField(new GUIContent("Large Image Text", "Text that gets displayed when someone hovers over the large image"), richPresence.LargeImageText);
-                richPresence.SmallImageKey = EditorGUILayout.TextField(new GUIContent("Small Image Key", "Usually a \n• Player class icon \n• Level number indicator \n• Game status indicator (finding lobby, connecting to match, etc)"), richPresence.SmallImageKey);
+                richPresence.SmallImageKey = EditorGUILayout.TextField(new GUIContent("Small Image Key", "Usually a \nâ€¢ Player class icon \nâ€¢ Level number indicator \nâ€¢ Game status indicator (finding lobby, connecting to match, etc)"), richPresence.SmallImageKey);
                 richPresence.SmallImageText = EditorGUILayout.TextField(new GUIContent("Small Image Text", "Text that gets displayed when someone hovers over the small image"), richPresence.SmallImageText);
                 EditorGUILayout.Space();
                 EditorGUILayout.LabelField(new GUIContent("Elapsed time", "Show how much time the player spent in the game"), EditorStyles.boldLabel);
@@ -133,7 +133,7 @@ public class DiscordRichPresenceEditor : Editor
             if(richPresence.SceneBased == true)
             {
                 Separator();
-                EditorGUILayout.PropertyField(presenceItems, new GUIContent("RichPresence Items", "Add the RichPresence Items you created here. \nThe index of the item in the list represents what scene it will display it on. \n\nExample: \n• The current scene buildindex is 3 \n• The details of the RichPresence will be the same as the details of the item on the third index"), true);
+                EditorGUILayout.PropertyField(presenceItems, new GUIContent("RichPresence Items", "Add the RichPresence Items you created here. \nThe index of the item in the list represents what scene it will display it on. \n\nExample: \nâ€¢ The current scene buildindex is 3 \nâ€¢ The details of the RichPresence will be the same as the details of the item on the third index"), true);
                 serializedObject.ApplyModifiedProperties();
                 EditorGUILayout.Space();
                 EditorGUILayout.LabelField(new GUIContent("Elapsed time", "Show how much time the player spent in the game"), EditorStyles.boldLabel);
@@ -147,7 +147,7 @@ public class DiscordRichPresenceEditor : Editor
             buttonStyle.hover.textColor = HexToColor("#551A8B");
             if (GUILayout.Button(new GUIContent("Documentation", "Stuck? Need in help? \nClick to view the Documentation."), buttonStyle))
             {
-                Application.OpenURL("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+                Application.OpenURL("https://github.com/andrasdaradici/ezrp/blob/main/README.md#further-help");
             }
         }   
     }
