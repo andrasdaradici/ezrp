@@ -181,6 +181,7 @@ So in my case, when I'm in the main menu it will display the data from the main 
 
 9 - Other functions.
 There's also this this toggle at the bottom of the script, you can enable it to show how much time a player spent in the game since they opened it.
+
 ![image](https://github.com/andrasdaradici/ezrp/assets/90605554/1644d28c-399a-4571-8fcf-c1482a0c9ff0)
 
 ![image](https://github.com/andrasdaradici/ezrp/assets/90605554/ee646ec1-c1f1-463c-8f29-c6f1f5b5e0f9)
