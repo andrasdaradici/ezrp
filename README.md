@@ -86,6 +86,44 @@ From the two options that appeared, tick the checkbox next to "Static RichPresen
 
 ![image](https://github.com/andrasdaradici/ezrp/assets/90605554/9828a8ce-c02d-4fa1-8b32-4663a4baef29)
 
+6A - Input the details that you want displayed. 
+
+Example:
+
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/f08df04a-8a95-403b-9ed4-f6ec68152547)
+
+When you enter play mode, it should change from "Not connected" to "Connected" and it should look like this in Discord. If there are any errors they will appear.
+
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/a01e6f7b-a07c-4a4e-b2a7-b3b1dcc4faa5)
+
+7A - Adding images.
+
+Back to the Discord Developer Portal webpage. Here, on the left sidebar, you will have to click "Rich Presence".
+
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/52ad28ef-2ac8-4311-bb5c-3542abc76749)
+
+Once you click on it you should see this
+
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/344baab7-9b90-454e-9d9d-9413ddbb30c7)
+
+Here, you will click "Add Image(s)" and you will upload the image that you want to display. For this example, I am going to upload the logo of the asset.
+
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/bef94856-79a3-4d1c-843a-ff1d3c7e698b)
+
+After uploading the image you will have to give it a key, basically the name of the image, and then press "Save Changes".
+
+Back to Unity, on the RichPresence, you will have to input the key (name) of the image you just uploaded.
+
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/af3a44d5-6b11-4f72-a78c-5ae2be3af967)
+
+If you want to have some text while you hover over it just type the text you want into the "Large Image Text" field.  
+
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/4e0e2f21-40ea-4e66-8ba1-fd4a939fe081)
+
+Press play, and check your Discord profile, and the image is there!
+
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/2c2f4caa-58eb-4638-b57f-af0cf4729522)
+
 5B - Scene-Based RichPresence.
 
 Now this is where things get funky. In the script, click the empty tick the check box next to "Scene Based RichPresence". After ticking it you should see this.
@@ -138,41 +176,9 @@ So in my case, when I'm in the main menu it will display the data from the main 
 ![image](https://github.com/andrasdaradici/ezrp/assets/90605554/3ca256a6-51fc-4247-a700-9e64f9c4c29a)
 ![image](https://github.com/andrasdaradici/ezrp/assets/90605554/ae742744-f504-4931-8270-af58d3eece72)
 
+9 - Other functions.
+There's also this this toggle at the bottom of the script, you can enable it to show how much time a player spent in the game since they opened it.
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/c786c643-0c07-4b7b-b1c1-cd0d773c1c17)
+![image](https://github.com/andrasdaradici/ezrp/assets/90605554/2d9bd09e-1393-4ece-a760-1f28613e02de)
 
-6A - Input the details that you want displayed. 
-
-Example:
-
-![image](https://github.com/andrasdaradici/ezrp/assets/90605554/f08df04a-8a95-403b-9ed4-f6ec68152547)
-
-When you enter play mode, it should change from "Not connected" to "Connected" and it should look like this in Discord. If there are any errors they will appear.
-
-![image](https://github.com/andrasdaradici/ezrp/assets/90605554/a01e6f7b-a07c-4a4e-b2a7-b3b1dcc4faa5)
-
-7A - Adding images.
-
-Back to the Discord Developer Portal webpage. Here, on the left sidebar, you will have to click "Rich Presence".
-
-![image](https://github.com/andrasdaradici/ezrp/assets/90605554/52ad28ef-2ac8-4311-bb5c-3542abc76749)
-
-Once you click on it you should see this
-
-![image](https://github.com/andrasdaradici/ezrp/assets/90605554/344baab7-9b90-454e-9d9d-9413ddbb30c7)
-
-Here, you will click "Add Image(s)" and you will upload the image that you want to display. For this example, I am going to upload the logo of the asset.
-
-![image](https://github.com/andrasdaradici/ezrp/assets/90605554/bef94856-79a3-4d1c-843a-ff1d3c7e698b)
-
-After uploading the image you will have to give it a key, basically the name of the image, and then press "Save Changes".
-
-Back to Unity, on the RichPresence, you will have to input the key (name) of the image you just uploaded.
-
-![image](https://github.com/andrasdaradici/ezrp/assets/90605554/af3a44d5-6b11-4f72-a78c-5ae2be3af967)
-
-If you want to have some text while you hover over it just type the text you want into the "Large Image Text" field.  
-
-![image](https://github.com/andrasdaradici/ezrp/assets/90605554/4e0e2f21-40ea-4e66-8ba1-fd4a939fe081)
-
-Press play, and check your Discord profile, and the image is there!
-
-![image](https://github.com/andrasdaradici/ezrp/assets/90605554/2c2f4caa-58eb-4638-b57f-af0cf4729522)
+For further help check out the documentation (COMING SOON).
